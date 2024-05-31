@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 4661216686121755085}
   - component: {fileID: 259689256067887118}
   - component: {fileID: 2073497982624708209}
-  m_Layer: 0
+  - component: {fileID: 3999791974822204017}
+  m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,7 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 259689256067887118}
-  moveSpeed: 2
+  moveSpeed: 1
 --- !u!50 &259689256067887118
 Rigidbody2D:
   serializedVersion: 4
@@ -111,6 +112,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.25
+--- !u!114 &3999791974822204017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2600131608292984156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f26519c9ccb8d814d8b746dfaf0a0b04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 2
 --- !u!1 &4596059696213329158
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,7 +135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9186342004481537729}
   - component: {fileID: 5094914267875547501}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -216,6 +216,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 7933598}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &7933598
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -361,6 +365,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 18993598}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &18993598
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -670,6 +678,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 53528946}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &53528946
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -815,6 +827,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 60299803}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &60299803
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -960,6 +976,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 68813228}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &68813228
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1105,6 +1125,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 82779020}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &82779020
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1250,6 +1274,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 106924735}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &106924735
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1395,6 +1423,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 126332055}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &126332055
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1540,6 +1572,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 133919671}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &133919671
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1718,6 +1754,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 182768856}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &182768856
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1863,6 +1903,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 186876951}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &186876951
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2169,6 +2213,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 198307872}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &198307872
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2314,6 +2362,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 202468413}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &202468413
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2459,6 +2511,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 207045640}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &207045640
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2765,6 +2821,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 237370044}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &237370044
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2910,6 +2970,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 240055013}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &240055013
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3055,6 +3119,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 240269981}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &240269981
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3200,6 +3268,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 253706941}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &253706941
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3345,6 +3417,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 261080615}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &261080615
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3490,6 +3566,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 295999015}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &295999015
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3635,6 +3715,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 302338982}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &302338982
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3910,6 +3994,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 304947940}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &304947940
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4086,6 +4174,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 328501335}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &328501335
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4201,7 +4293,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4231,6 +4323,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 333746196}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &333746196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4506,6 +4602,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 338592210}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &338592210
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4651,6 +4751,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 341314577}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &341314577
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4796,6 +4900,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 344766674}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &344766674
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4941,6 +5049,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 358023521}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &358023521
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5152,6 +5264,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 428595138}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &428595138
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5427,6 +5543,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 444233757}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &444233757
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5572,6 +5692,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 449180188}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &449180188
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5847,6 +5971,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 486925194}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &486925194
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5992,6 +6120,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 494113964}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &494113964
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6137,6 +6269,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 502850091}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &502850091
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6450,6 +6586,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 546471610}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &546471610
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6595,6 +6735,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 549405911}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &549405911
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6740,6 +6884,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 573675731}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &573675731
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6972,6 +7120,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 581712975}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &581712975
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7117,6 +7269,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 585613039}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &585613039
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7262,6 +7418,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 589686896}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &589686896
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7407,6 +7567,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 597037211}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &597037211
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7665,6 +7829,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 621335788}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &621335788
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7810,6 +7978,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 624482730}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &624482730
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8085,6 +8257,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 642077868}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &642077868
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8230,6 +8406,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 643957737}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &643957737
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8375,6 +8555,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 650977300}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &650977300
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8650,6 +8834,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 652017559}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &652017559
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8925,6 +9113,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 680817736}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &680817736
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9070,6 +9262,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 689136497}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &689136497
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9215,6 +9411,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 728177347}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &728177347
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9360,6 +9560,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 756953981}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &756953981
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9635,6 +9839,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 777745380}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &777745380
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9780,6 +9988,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 780650241}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &780650241
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10055,6 +10267,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 813931361}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &813931361
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10200,6 +10416,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 816063548}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &816063548
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10345,6 +10565,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 820981754}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &820981754
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10490,6 +10714,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 822521132}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &822521132
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10635,6 +10863,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 829194316}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &829194316
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10780,6 +11012,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 831006405}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &831006405
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10925,6 +11161,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 865014298}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &865014298
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11200,6 +11440,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 872429912}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &872429912
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11376,6 +11620,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 909073883}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &909073883
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11521,6 +11769,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 914321851}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &914321851
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11666,6 +11918,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 953213713}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &953213713
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11811,6 +12067,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 965491084}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &965491084
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11956,6 +12216,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 983746278}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &983746278
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12231,6 +12495,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 986166724}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &986166724
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12376,6 +12644,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1000044448}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1000044448
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12558,6 +12830,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1004445375}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1004445375
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12703,6 +12979,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1006031029}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1006031029
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12848,6 +13128,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1012617626}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1012617626
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12993,6 +13277,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1013605260}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1013605260
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13268,6 +13556,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1027516429}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1027516429
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13413,6 +13705,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1029793779}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1029793779
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13558,6 +13854,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1037792183}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1037792183
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13703,6 +14003,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1083917051}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1083917051
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13848,6 +14152,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1088055345}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1088055345
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14284,6 +14592,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1130250716}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1130250716
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14429,6 +14741,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1149839007}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1149839007
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14574,6 +14890,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1154813772}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1154813772
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14719,6 +15039,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1155614791}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1155614791
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15025,6 +15349,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1191088147}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1191088147
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15170,6 +15498,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1197165588}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1197165588
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15315,6 +15647,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1214351030}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1214351030
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15625,6 +15961,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1241310682}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1241310682
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15900,6 +16240,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1255411263}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1255411263
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16045,6 +16389,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1256917479}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1256917479
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16351,6 +16699,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1263118670}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1263118670
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16496,6 +16848,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1264408672}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1264408672
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16641,6 +16997,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1290920143}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1290920143
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16817,6 +17177,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1297491302}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1297491302
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16962,6 +17326,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1302907174}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1302907174
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17107,6 +17475,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1328793559}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1328793559
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17319,6 +17691,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1338893479}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1338893479
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17464,6 +17840,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1358673822}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1358673822
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17739,6 +18119,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1372882092}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1372882092
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18014,6 +18398,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1392694876}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1392694876
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18159,6 +18547,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1402659519}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1402659519
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18304,6 +18696,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1411016117}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1411016117
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18579,6 +18975,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1431127206}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1431127206
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18724,6 +19124,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1438659430}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1438659430
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18869,6 +19273,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1450352566}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1450352566
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19014,6 +19422,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1460431132}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1460431132
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19159,6 +19571,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1475012880}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1475012880
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19304,6 +19720,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1480572755}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1480572755
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19449,6 +19869,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1481935487}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1481935487
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19594,6 +20018,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1501950468}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1501950468
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19869,6 +20297,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1506256647}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1506256647
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20014,6 +20446,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1534274024}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1534274024
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20289,6 +20725,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1556026157}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1556026157
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20465,6 +20905,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1559473476}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1559473476
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20610,6 +21054,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1565571136}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1565571136
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20755,6 +21203,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1567099644}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1567099644
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20900,6 +21352,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1579644660}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1579644660
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21435,6 +21891,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1614110671}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1614110671
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21710,6 +22170,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1622786998}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1622786998
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21886,6 +22350,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1631248959}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1631248959
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22031,6 +22499,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1635363283}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1635363283
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22176,6 +22648,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1644179860}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1644179860
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22321,6 +22797,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1660801250}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1660801250
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22466,6 +22946,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1676607042}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1676607042
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22611,6 +23095,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1692754535}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1692754535
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22756,6 +23244,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1719077814}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1719077814
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22901,6 +23393,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1721251431}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1721251431
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23046,6 +23542,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1729240317}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1729240317
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23191,6 +23691,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1733444546}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1733444546
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23336,6 +23840,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1735989086}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1735989086
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23696,6 +24204,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1791278679}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1791278679
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23841,6 +24353,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1794025443}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1794025443
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23986,6 +24502,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1797229543}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1797229543
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24261,6 +24781,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1842744129}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1842744129
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24406,6 +24930,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1843290338}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1843290338
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24551,6 +25079,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1865449239}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1865449239
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24696,6 +25228,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1870549150}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1870549150
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24971,6 +25507,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1874489719}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1874489719
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25246,6 +25786,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1902319735}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1902319735
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25521,6 +26065,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1908575383}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1908575383
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25666,6 +26214,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1914796196}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1914796196
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25811,6 +26363,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1918428609}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1918428609
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25956,6 +26512,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1924125073}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1924125073
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26101,6 +26661,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1929502118}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1929502118
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26246,6 +26810,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1930724125}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1930724125
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26298,6 +26866,114 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1932647152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1932647155}
+  - component: {fileID: 1932647154}
+  - component: {fileID: 1932647153}
+  m_Layer: 0
+  m_Name: Interact
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1932647153
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932647152}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &1932647154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932647152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6711a8c778da14db8645c1c5e928f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInRange: 0
+  interactKey: 101
+  interactAction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 333746195}
+        m_TargetAssemblyTypeName: Plot, Assembly-CSharp
+        m_MethodName: OnMouseDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  turretPlaced: 0
+--- !u!4 &1932647155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932647152}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1955001067
 GameObject:
   m_ObjectHideFlags: 0
@@ -26391,6 +27067,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1955001071}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1955001071
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26536,6 +27216,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1957889483}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1957889483
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26681,6 +27365,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1961824078}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1961824078
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26826,6 +27514,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 1998467216}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &1998467216
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26971,6 +27663,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 2064927987}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &2064927987
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27116,6 +27812,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 2077696253}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &2077696253
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27521,6 +28221,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 2097062541}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &2097062541
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27666,6 +28370,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 2120899014}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &2120899014
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27811,6 +28519,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 2122963095}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &2122963095
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27956,6 +28668,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 2146871226}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &2146871226
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28101,6 +28817,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sr: {fileID: 2147190802}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  targetingRange: 3
 --- !u!212 &2147190802
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28278,3 +28998,4 @@ SceneRoots:
   - {fileID: 4659291523629535538}
   - {fileID: 1773967973}
   - {fileID: 160803228}
+  - {fileID: 1932647155}

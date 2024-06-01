@@ -99,12 +99,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f41e53d4098038d4585fb452550c462d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sr: {fileID: 7551053295178137479}
-  hoverColor: {r: 1, g: 1, b: 1, a: 1}
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 0
-  targetingRange: 3
 --- !u!61 &2444780546834683849
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -202,7 +196,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3179789410414464641}
         m_TargetAssemblyTypeName: Plot, Assembly-CSharp
-        m_MethodName: OnMouseDown
+        m_MethodName: BuildTower
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -18,12 +18,16 @@ public class InteractSystem : MonoBehaviour
 
     private void CheckTargetIsInRange()
     {
-        if (isInRange & !turretPlaced)
+        Tower towerToBuild = BuildManager.main.GetSelectedTower();
+        if ((towerToBuild.cost <= LevelManager.main.currency))
         {
-            if (Input.GetKeyDown(interactKey))
+            if (isInRange & !turretPlaced)
             {
-                interactAction.Invoke();
-                turretPlaced = true;
+                if (Input.GetKeyDown(interactKey))
+                {
+                    interactAction.Invoke();
+                    turretPlaced = true;
+                }
             }
         }
     }

@@ -20,11 +20,26 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
-        
+        currency = 100;
     }
 
-    void Update()
+    public void IncreaseCurrency(int amount)
     {
-        
+        currency += amount;
+    }
+
+    public bool SpendCurrency(int amount)
+    {
+        if(amount <= currency) 
+        {
+            //Buy item
+            currency -= amount;
+            return true;
+        }
+        else
+        {
+            Debug.Log("You Cant Afford It");
+            return false; 
+        }
     }
 }

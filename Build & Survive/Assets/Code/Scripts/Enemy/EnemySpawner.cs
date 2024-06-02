@@ -10,7 +10,7 @@ public class EnemySpawner : MonoBehaviour
 
     [Header("Attributes")]
     [SerializeField] private int baseEnemies = 8;
-    [SerializeField] private float enemiesPerSecond = 0.5f;
+    [SerializeField] private float enemiesPerSecond = 1f;
     [SerializeField] private float timeBetweenWaves = 5f;
     [SerializeField] private float diffucultyScalingFactor = 0.75f;
     [SerializeField] private float enemiesPerSecondCap = 15f;
@@ -95,7 +95,8 @@ public class EnemySpawner : MonoBehaviour
 
     private float EnemiesPerSecond()
     {
-        return Mathf.Clamp(Mathf.RoundToInt(enemiesPerSecond * Mathf.Pow(currentWave, diffucultyScalingFactor)), 0f, enemiesPerSecondCap);
+        return Mathf.Clamp(enemiesPerSecond * Mathf.Pow(currentWave, diffucultyScalingFactor), 0.1f, enemiesPerSecondCap);
     }
+
 
 }

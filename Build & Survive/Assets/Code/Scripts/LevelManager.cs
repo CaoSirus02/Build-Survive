@@ -7,8 +7,10 @@ public class LevelManager : MonoBehaviour
 
     public static LevelManager main;
 
+    [Header("References")]
     [SerializeField] public Transform startPoint;
     [SerializeField] public Transform[] path;
+
 
     public int currency;
 

@@ -18,13 +18,13 @@ public class Plot : MonoBehaviour
     {
 
         Tower towerToBuild = BuildManager.main.GetSelectedTower();
-        if ((towerToBuild.cost>LevelManager.main.currency))
+        if ((towerToBuild.cost>MaterialBase.main.materialCountOnPlayer))
         {
             Debug.Log("You Cant Affod This Tower");
             return;
         }
 
-        LevelManager.main.SpendCurrency(towerToBuild.cost);
+        MaterialBase.main.SpendMaterial();
 
         towerObj = Instantiate(towerToBuild.prefab, transform.position, Quaternion.identity);
         turret = towerObj.GetComponent<Turret>();

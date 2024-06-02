@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class Turret : MonoBehaviour
 {
+
+    public static Turret main;
+
     [Header("References")]
     [SerializeField] private Transform turretRotationPoint;
     [SerializeField] private LayerMask enemyMask;
@@ -17,24 +20,34 @@ public class Turret : MonoBehaviour
     [SerializeField] private float rotationSpeed = 5f;
     [SerializeField] private float bps = 1f; // Bullets per second
     [SerializeField] private int baseUpgradeCost = 100;
+    [SerializeField] private int ammoCount = 10;
+    [SerializeField] public int hitPoint = 1;
 
     private float bpsBase;
     private float targetingRangeBase;
+    private int hitPointBase;
 
     private Transform target;
     private float timeUntilFire;
 
-    private int level = 1;
+    public int level = 1;
+
+
+    private void Awake()
+    {
+        main = this;
+    }
 
     private void Start()
     {
         bpsBase = bps;
         targetingRangeBase = targetingRange;
-
+        hitPointBase = hitPoint;
     }
 
     private void Update()
     {
+
         if (target == null)
         {
             FindTarget();
@@ -43,21 +56,25 @@ public class Turret : MonoBehaviour
 
 
         RotateTowardsTarget();
-        if (!CheckTargetIsInRange())
+        if(ammoCount > 0)
         {
-
-            target = null;
-        }
-        else
-        {
-            timeUntilFire += Time.deltaTime;
-
-            if (timeUntilFire >= 1f / bps)
+            if (!CheckTargetIsInRange())
             {
-                Shoot();
-                timeUntilFire = 0f;
+
+                target = null;
+            }
+            else
+            {
+                timeUntilFire += Time.deltaTime;
+
+                if (timeUntilFire >= 1f / bps)
+                {
+                    Shoot();
+                    timeUntilFire = 0f;
+                }
             }
         }
+        
     }
 
     private void Shoot()
@@ -65,6 +82,7 @@ public class Turret : MonoBehaviour
         GameObject bulletObj = Instantiate(bulletPrefabs, firingPoint.position, Quaternion.identity);
         Bullet bulletScript = bulletObj.GetComponent<Bullet>();
         bulletScript.SetTarget(target);
+        ammoCount--;
     }
 
     private void FindTarget()
@@ -92,9 +110,69 @@ public class Turret : MonoBehaviour
             targetRotation, rotationSpeed * Time.deltaTime);
     }
 
+
+    public void Upgrade()
+    {
+        if (CalculateCost() > MaterialBase.main.materialCountOnPlayer) return;
+        MaterialBase.main.UpgradeMaterial(CalculateCost());
+
+        level++;
+
+        bps = CalculateBPS();
+        targetingRange = CalculateRange();
+        hitPoint = CalculateHitpoint();
+
+        Debug.Log("New BPS: " + bps);
+        Debug.Log("New targetingRange: " + targetingRange);
+        Debug.Log("New hitPoint: " +  hitPoint);
+        Debug.Log("New cost: " + CalculateCost());
+
+    }
+
+    private int CalculateCost()
+    {
+        return Mathf.RoundToInt(baseUpgradeCost * Mathf.Pow(level, 0.8f));
+    }
+
+    private float CalculateBPS()
+    {
+        return bpsBase * Mathf.Pow(level, 0.6f);
+    }
+
+    private float CalculateRange()
+    {
+        return targetingRangeBase * Mathf.Pow(level, 0.4f);
+    }
+
+    private int CalculateHitpoint()
+    {
+        switch (level)
+        {
+            case 1:
+                return hitPointBase * 1;
+            case 2:
+                return hitPointBase * 2;
+            case 3:
+                return hitPointBase * 3;
+            default:
+                return hitPointBase;
+        }
+    }
+
+
     private void OnDrawGizmosSelected()
     {
         Handles.color = Color.cyan;
         Handles.DrawWireDisc(transform.position, transform.forward, targetingRange);
+    }
+
+    public void AddAmmo()
+    {
+        if(AmmoBase.main.ammoCountPlayer > 0)
+        {
+                ammoCount++;
+                AmmoBase.main.ammoCountPlayer--;
+        }
+        
     }
 }

@@ -19,7 +19,7 @@ public class InteractSystem : MonoBehaviour
     private void CheckTargetIsInRange()
     {
         Tower towerToBuild = BuildManager.main.GetSelectedTower();
-        if ((towerToBuild.cost <= LevelManager.main.currency))
+        if ((towerToBuild.cost <= MaterialBase.main.materialCountOnPlayer))
         {
             if (isInRange & !turretPlaced)
             {

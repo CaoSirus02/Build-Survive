@@ -57,7 +57,6 @@ public class Turret : MonoBehaviour
         {
             if (!CheckTargetIsInRange())
             {
-
                 target = null;
             }
             else

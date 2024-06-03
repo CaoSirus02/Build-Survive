@@ -10,6 +10,12 @@ public class Plot : MonoBehaviour
     private GameObject towerObj;
     private Turret turret;
 
+    public AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     private void Start()
     {
     }
@@ -26,10 +32,12 @@ public class Plot : MonoBehaviour
 
         MaterialBase.main.SpendMaterial();
 
+        audioManager.PlaySFX(audioManager.buildSFX);
+
         towerObj = Instantiate(towerToBuild.prefab, transform.position, Quaternion.identity);
         turret = towerObj.GetComponent<Turret>();
 
     }
 
-    
+
 }

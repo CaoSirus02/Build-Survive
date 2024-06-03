@@ -8,10 +8,16 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource SFXSource;
 
     public AudioClip backgroundM;
+    public AudioClip buildSFX;
 
     private void Start()
     {
         musicSource.clip = backgroundM;
         musicSource.Play();
+    }
+
+    public void PlaySFX(AudioClip clip)
+    {
+        SFXSource.PlayOneShot(clip);
     }
 }

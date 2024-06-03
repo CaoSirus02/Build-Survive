@@ -21,11 +21,9 @@ public class Turret : MonoBehaviour
     [SerializeField] private float bps = 1f; // Bullets per second
     [SerializeField] private int baseUpgradeCost = 100;
     [SerializeField] private int ammoCount = 10;
-    [SerializeField] public int hitPoint = 1;
 
     private float bpsBase;
     private float targetingRangeBase;
-    private int hitPointBase;
 
     private Transform target;
     private float timeUntilFire;
@@ -42,7 +40,6 @@ public class Turret : MonoBehaviour
     {
         bpsBase = bps;
         targetingRangeBase = targetingRange;
-        hitPointBase = hitPoint;
     }
 
     private void Update()
@@ -120,11 +117,9 @@ public class Turret : MonoBehaviour
 
         bps = CalculateBPS();
         targetingRange = CalculateRange();
-        hitPoint = CalculateHitpoint();
 
         Debug.Log("New BPS: " + bps);
         Debug.Log("New targetingRange: " + targetingRange);
-        Debug.Log("New hitPoint: " +  hitPoint);
         Debug.Log("New cost: " + CalculateCost());
 
     }
@@ -143,22 +138,6 @@ public class Turret : MonoBehaviour
     {
         return targetingRangeBase * Mathf.Pow(level, 0.4f);
     }
-
-    private int CalculateHitpoint()
-    {
-        switch (level)
-        {
-            case 1:
-                return hitPointBase * 1;
-            case 2:
-                return hitPointBase * 2;
-            case 3:
-                return hitPointBase * 3;
-            default:
-                return hitPointBase;
-        }
-    }
-
 
     private void OnDrawGizmosSelected()
     {

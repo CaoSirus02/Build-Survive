@@ -11,9 +11,10 @@ public class MaterialBase : MonoBehaviour
     [SerializeField] public int materialCountBase = 100;
     [SerializeField] public int materialCountOnPlayer = 0;
     [SerializeField] private TextMeshProUGUI materialCountOnPlayerTXT;
+    [SerializeField] public int materialBaseLV = 1;
 
 
-    float createMaterialTime = 4f;
+    float createMaterialTime = 8f;
     float currentTime = 0f;
     bool isThereHaveSpace = false;
 
@@ -62,6 +63,17 @@ public class MaterialBase : MonoBehaviour
         {
             Debug.Log("Cant Upgraded");
             return false;
+        }
+    }
+
+    public void LevelUPMaterialBase()
+    {
+        if (materialBaseLV < 5 && LevelManager.main.currency > (materialBaseLV*150))
+        {
+            materialBaseLV++;
+            createMaterialTime--;
+            Debug.Log("Material Base Lv: " + materialBaseLV);
+            LevelManager.main.SpendCurrency(materialBaseLV * 150);
         }
     }
 

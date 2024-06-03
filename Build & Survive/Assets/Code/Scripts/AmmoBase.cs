@@ -11,8 +11,10 @@ public class AmmoBase : MonoBehaviour
     [SerializeField] public int ammoCountPlayer = 0;
     [SerializeField] private int ammoCountBase = 10;
     [SerializeField] private TextMeshProUGUI ammoTXT;
+    [SerializeField] public int ammoBaseLV = 1;
 
-    float createAmmoTime = 4f;
+
+    float createAmmoTime = 8f;
     float currentTime = 0f;
     bool isThereHaveSpace = false;
 
@@ -45,6 +47,17 @@ public class AmmoBase : MonoBehaviour
                 currentTime = 0f;
                 AmmoCreatingCount();
             }
+        }
+    }
+
+    public void UpgradeAmmoBaseLV()
+    {
+        if (ammoBaseLV < 5 && LevelManager.main.currency > (ammoBaseLV * 150))
+        {
+            ammoBaseLV++;
+            createAmmoTime--;
+            Debug.Log("Ammo Base Lv: " + ammoBaseLV);
+            LevelManager.main.SpendCurrency(ammoBaseLV * 150);
         }
     }
 

@@ -7,9 +7,7 @@ public class InteractSystem_Turret : MonoBehaviour
 {
     public bool isInRange;
     public KeyCode interactKey;
-    public KeyCode interactKey2;
     public UnityEvent interactAction;
-    public UnityEvent interactAction2;
 
 
     private void Update()
@@ -24,11 +22,6 @@ public class InteractSystem_Turret : MonoBehaviour
             if (Input.GetKeyDown(interactKey))
             {
                 interactAction.Invoke();
-            }
-
-            if (Input.GetKeyDown(interactKey2))
-            {
-                interactAction2.Invoke();
             }
         }
     }

@@ -33,6 +33,7 @@ public class EnemyMovement : MonoBehaviour
                 {
                     EnemySpawner.onEnemyDestroy.Invoke();
                     Destroy(gameObject);
+                    GameManager.main.playerHealth--;
                     return;
                 }
                 else

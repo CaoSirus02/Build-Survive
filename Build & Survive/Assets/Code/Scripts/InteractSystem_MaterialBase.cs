@@ -7,8 +7,9 @@ public class InteractSystem_MaterialBase : MonoBehaviour
 {
     public bool isInRange;
     public KeyCode interactKey;
+    public KeyCode interactKey2;
     public UnityEvent interactAction;
-
+    public UnityEvent interactAction2;
 
     private void Update()
     {
@@ -23,7 +24,12 @@ public class InteractSystem_MaterialBase : MonoBehaviour
             {
                 interactAction.Invoke();
             }
+            if (Input.GetKeyDown(interactKey2))
+            {
+                interactAction2.Invoke();
+            }
         }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

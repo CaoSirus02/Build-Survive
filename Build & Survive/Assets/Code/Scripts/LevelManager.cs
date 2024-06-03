@@ -11,6 +11,8 @@ public class LevelManager : MonoBehaviour
     [SerializeField] public Transform startPoint;
     [SerializeField] public Transform[] path;
 
+    public int bulletLv = 1;
+
 
     public int currency;
 
@@ -44,4 +46,6 @@ public class LevelManager : MonoBehaviour
             return false; 
         }
     }
+
+
 }

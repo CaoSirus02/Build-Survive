@@ -65,15 +65,15 @@ public class PlayerMovement : MonoBehaviour
         {
             spriteRenderer.sprite = spriteDown;
         }
-        else if(Input.GetKeyDown(KeyCode.D))
+        if(Input.GetKeyDown(KeyCode.D))
         {
             spriteRenderer.sprite = spriteRight;
         }
-        else if( Input.GetKeyDown(KeyCode.W))
+        if( Input.GetKeyDown(KeyCode.W))
         {
             spriteRenderer.sprite = spriteUp;
         }
-        else if(Input.GetKeyDown(KeyCode.A))
+        if(Input.GetKeyDown(KeyCode.A))
         {
             spriteRenderer.sprite = spriteLeft;
         }

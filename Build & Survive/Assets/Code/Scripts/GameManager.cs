@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager main;
 
     [SerializeField] public int playerHealth = 10;
+    [SerializeField] public GameObject GameOverScreen;
 
     private void Awake()
     {
@@ -24,6 +25,7 @@ public class GameManager : MonoBehaviour
         {
             //Game Over
             Time.timeScale = 0f;
+            GameOverScreen.SetActive(true);
         }
     }
 }

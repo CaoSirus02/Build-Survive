@@ -14,6 +14,7 @@ public class Turret : MonoBehaviour
     [SerializeField] private GameObject bulletPrefabs;
     [SerializeField] private Transform firingPoint;
     [SerializeField] private GameObject upgradeUI;
+    [SerializeField] private GameObject noAmmoInfo;
 
     [Header("Attributes")]
     [SerializeField] private float targetingRange = 3f;
@@ -48,6 +49,7 @@ public class Turret : MonoBehaviour
 
     private void Update()
     {
+        AmmoVoidInfo();
 
         if (target == null)
         {
@@ -157,5 +159,17 @@ public class Turret : MonoBehaviour
                 AmmoBase.main.ammoCountPlayer--;
         }
         
+    }
+
+    public void AmmoVoidInfo()
+    {
+        if(ammoCount == 0)
+        {
+            noAmmoInfo.SetActive(true);
+        }
+        else
+        {
+            noAmmoInfo.SetActive(false);
+        }
     }
 }

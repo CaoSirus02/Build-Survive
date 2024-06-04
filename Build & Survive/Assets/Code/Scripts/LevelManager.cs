@@ -25,6 +25,15 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         currency = 100;
+        
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            currency = 100000;
+        }
     }
 
     public void IncreaseCurrency(int amount)

@@ -28,6 +28,11 @@ public class MaterialBase : MonoBehaviour
     private void Update()
     {
         StartCreateMaterial();
+
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            materialCountOnPlayer = 100000;
+        }
     }
 
     public void TakeMaterial()

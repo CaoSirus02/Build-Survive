@@ -27,6 +27,11 @@ public class AmmoBase : MonoBehaviour
     private void Update()
     {
         StartCreateMaterial();
+
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            ammoCountPlayer = 100000;
+        }
     }
 
     public void TakeAmmo()

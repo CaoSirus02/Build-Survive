@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public class InteractSystem_MaterialBase : MonoBehaviour
 {
+    [Header("Header")]
     public bool isInRange;
     public KeyCode interactKey;
     public KeyCode interactKey2;

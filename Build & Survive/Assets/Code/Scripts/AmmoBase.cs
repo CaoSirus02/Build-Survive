@@ -8,10 +8,11 @@ public class AmmoBase : MonoBehaviour
     public static AmmoBase main;
 
     [Header("References")]
+    [SerializeField] private TextMeshProUGUI ammoTXT;
+    [Header("Attributes")]
+    [SerializeField] public int ammoBaseLV = 1;
     [SerializeField] public int ammoCountPlayer = 0;
     [SerializeField] private int ammoCountBase = 10;
-    [SerializeField] private TextMeshProUGUI ammoTXT;
-    [SerializeField] public int ammoBaseLV = 1;
 
 
     float createAmmoTime = 8f;

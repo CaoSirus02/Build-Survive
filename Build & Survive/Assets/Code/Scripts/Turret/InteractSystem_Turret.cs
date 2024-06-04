@@ -5,10 +5,16 @@ using UnityEngine.Events;
 
 public class InteractSystem_Turret : MonoBehaviour
 {
+    [Header ("References")]
     public bool isInRange;
     public KeyCode interactKey;
     public UnityEvent interactAction;
+    public AudioManager audioManager;
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
     private void Update()
     {
@@ -22,6 +28,7 @@ public class InteractSystem_Turret : MonoBehaviour
             if (Input.GetKeyDown(interactKey))
             {
                 interactAction.Invoke();
+                audioManager.PlaySFX(audioManager.loadAmmo);
             }
         }
     }

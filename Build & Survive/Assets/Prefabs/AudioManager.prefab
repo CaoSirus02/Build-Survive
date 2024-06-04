@@ -306,3 +306,8 @@ MonoBehaviour:
   SFXSource: {fileID: 2868034007331770660}
   backgroundM: {fileID: 8300000, guid: d5a10bc4683b54b49a72fd6fcaab961b, type: 3}
   buildSFX: {fileID: 8300000, guid: ba00ea837cd714447a8ce99175cf65a2, type: 3}
+  tierOneTurretShoot: {fileID: 8300000, guid: 00f69d29f6253924ba21966b95a6cb8c, type: 3}
+  tierTwoTurretShoot: {fileID: 8300000, guid: 3e7190d1cc237a942b9b1717f5a0e8dc, type: 3}
+  tierTreeTurretShoot: {fileID: 8300000, guid: 138c447aa5e38d5419767e8d0052ffdb, type: 3}
+  explosion: {fileID: 8300000, guid: 811854a0f8487bb4d8911ef71954a2f1, type: 3}
+  loadAmmo: {fileID: 8300000, guid: 2c7401abfd7714e4e9aecadac41042f3, type: 3}

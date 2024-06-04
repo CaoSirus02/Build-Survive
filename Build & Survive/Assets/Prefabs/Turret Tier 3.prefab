@@ -243,7 +243,7 @@ MonoBehaviour:
   interactAction:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2201248407728739151}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Turret, Assembly-CSharp
         m_MethodName: AddAmmo
         m_Mode: 1
@@ -264,7 +264,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2550205333541098838}
-  - component: {fileID: 2201248407728739151}
+  - component: {fileID: 5164489275052723909}
   - component: {fileID: 2289899121778708757}
   m_Layer: 6
   m_Name: Turret Tier 3
@@ -291,7 +291,7 @@ Transform:
   - {fileID: 5683711252052196085}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2201248407728739151
+--- !u!114 &5164489275052723909
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -300,7 +300,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8643925531787002101}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37a94d862b50a19419ea5e52b8dfb4db, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ced623613709a942afc890d2f1edd85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   turretRotationPoint: {fileID: 3253888737205067375}
@@ -311,12 +311,12 @@ MonoBehaviour:
   firingPoint: {fileID: 3153735952726620838}
   upgradeUI: {fileID: 0}
   targetingRange: 5
-  rotationSpeed: 350
+  rotationSpeed: 400
   bps: 4
   baseUpgradeCost: 100
-  ammoCount: 25
-  hitPoint: 1
+  ammoCount: 35
   level: 1
+  audioManager: {fileID: 0}
 --- !u!58 &2289899121778708757
 CircleCollider2D:
   m_ObjectHideFlags: 0

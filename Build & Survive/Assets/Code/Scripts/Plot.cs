@@ -8,8 +8,11 @@ using UnityEngine.Events;
 public class Plot : MonoBehaviour
 {
     private GameObject towerObj;
-    private Turret turret;
+    public Turret turret;
+    public Turret2 turret2;
+    public Turret3 turret3;
 
+    [Header("References")]
     public AudioManager audioManager;
 
     private void Awake()
@@ -36,6 +39,8 @@ public class Plot : MonoBehaviour
 
         towerObj = Instantiate(towerToBuild.prefab, transform.position, Quaternion.identity);
         turret = towerObj.GetComponent<Turret>();
+        turret2 = towerObj.GetComponent<Turret2>();
+        turret3 = towerObj.GetComponent<Turret3>();
 
     }
 

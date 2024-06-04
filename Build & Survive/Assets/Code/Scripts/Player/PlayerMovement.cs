@@ -9,7 +9,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] LayerMask whatStopsMovement;
     [SerializeField] LayerMask whatStopsMovement2;
     [SerializeField] Transform movePoint;
-    [SerializeField] Animator anim;
+    [SerializeField] SpriteRenderer spriteRenderer;
+    [SerializeField] Sprite spriteUp;
+    [SerializeField] Sprite spriteDown;
+    [SerializeField] Sprite spriteLeft;
+    [SerializeField] Sprite spriteRight;
 
     [Header("Attributes")]
     [SerializeField] float moveSpeed = 5f;
@@ -22,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         Movement();
+        Animation();
     }
 
     private void Movement()
@@ -51,6 +56,26 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             //anim.SetBool("moving", true);
+        }
+    }
+
+    void Animation()
+    {
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            spriteRenderer.sprite = spriteDown;
+        }
+        else if(Input.GetKeyDown(KeyCode.D))
+        {
+            spriteRenderer.sprite = spriteRight;
+        }
+        else if( Input.GetKeyDown(KeyCode.W))
+        {
+            spriteRenderer.sprite = spriteUp;
+        }
+        else if(Input.GetKeyDown(KeyCode.A))
+        {
+            spriteRenderer.sprite = spriteLeft;
         }
     }
 }

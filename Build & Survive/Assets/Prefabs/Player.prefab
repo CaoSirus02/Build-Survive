@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 1e50287f60d98c94c80ecb11f8f5fc5f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3cc1ac8616356447920762a4035e691, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -139,7 +139,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   movePoint: {fileID: 1914505469918768610}
-  anim: {fileID: 0}
+  spriteRenderer: {fileID: 317119805392244410}
+  spriteUp: {fileID: 21300000, guid: d3cc1ac8616356447920762a4035e691, type: 3}
+  spriteDown: {fileID: 21300000, guid: 82714676f5286ae48b19ac53cfc8435e, type: 3}
+  spriteLeft: {fileID: 21300000, guid: f77b5a4e7c0da0145ad8c5534ccd4c77, type: 3}
+  spriteRight: {fileID: 21300000, guid: 28c254eb4db84694dbd489671a4405d4, type: 3}
   moveSpeed: 5
 --- !u!61 &7608447564909519267
 BoxCollider2D:

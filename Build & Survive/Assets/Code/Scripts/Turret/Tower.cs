@@ -5,6 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class Tower
 {
+    [Header ("References")]
     public string name;
     public int cost;
     public GameObject prefab;

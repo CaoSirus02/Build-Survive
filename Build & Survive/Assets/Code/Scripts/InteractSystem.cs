@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public class InteractSystem : MonoBehaviour
 {
+    [Header("References")]
     public bool isInRange;
     public KeyCode interactKey;
     public UnityEvent interactAction;

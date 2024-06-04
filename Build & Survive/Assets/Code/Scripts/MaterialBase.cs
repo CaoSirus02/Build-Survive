@@ -8,9 +8,10 @@ public class MaterialBase : MonoBehaviour
     public static MaterialBase main;
 
     [Header("References")]
+    [SerializeField] private TextMeshProUGUI materialCountOnPlayerTXT;
+    [Header("Attributes")]
     [SerializeField] public int materialCountBase = 100;
     [SerializeField] public int materialCountOnPlayer = 0;
-    [SerializeField] private TextMeshProUGUI materialCountOnPlayerTXT;
     [SerializeField] public int materialBaseLV = 1;
 
 

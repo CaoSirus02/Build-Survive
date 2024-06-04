@@ -30,10 +30,14 @@ public class Turret : MonoBehaviour
 
     public int level = 1;
 
+    [Header("References")]
+    public AudioManager audioManager;
 
     private void Awake()
     {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         main = this;
+
     }
 
     private void Start()
@@ -79,6 +83,7 @@ public class Turret : MonoBehaviour
         Bullet bulletScript = bulletObj.GetComponent<Bullet>();
         bulletScript.SetTarget(target);
         ammoCount--;
+        audioManager.PlaySFX(audioManager.tierOneTurretShoot);
     }
 
     private void FindTarget()

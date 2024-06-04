@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class VolumeSettings : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private AudioMixer myMixer;
     [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider SFXSlider;
